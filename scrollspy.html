@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scrollspy Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section5 {padding-top:50px;height:500px;color: #fff; background-color: #009608;}
+  #section6 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">VITAMINS</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Vitamin A</a></li>
+          <li><a href="#section2">Vitamin B</a></li>
+          <li><a href="#section3">Vitamin C</a></li>
+          <li><a href="#section4">Vitamin D</a></li>
+          <li><a href="#section5">Vitamin E</a></li>
+          <li><a href="#section6">Vitamin K</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>Vitamin A</h1>
+  <br><q>Vitamin A is an antioxidant. It can come from plant or animal sources. Plant sources include colorful fruits and vegetables. Animal sources include liver and whole milk. Vitamin A is also added to foods like cereals.</q><br>
+  <q>Vegetarians, young children, and alcoholics may need extra Vitamin A. You might also need more if you have certain conditions, such as liver diseases, cystic fibrosis, and Crohn's disease. Check with your health care provider to see if you need to take vitamin A supplements.</q>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Vitamin B</h1><br>
+  <q>These vitamins help the process your body uses to get or make energy from the food you eat. They also help form red blood cells.</q><br><br>
+  <q> You can get B vitamins from proteins such as fish, poultry, meat, eggs, and dairy products. Leafy green vegetables, beans, and peas also have B vitamins. Many cereals and some breads have added B vitamins.</q>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Vitamin C</h1><br>
+  <q>Vitamin C is an antioxidant. It is important for your skin, bones, and connective tissue. It promotes healing and helps the body absorb iron.</q><br><br>
+  <q>Vitamin C comes from fruits and vegetables. Good sources include citrus, red and green peppers, tomatoes, broccoli, and greens. Some juices and cereals have added vitamin C.
+     Some people may need extra vitamin C for,Pregnant/breastfeeding women,Smokers,People recovering from surgery,Burn victims</q>
+</div>
+<div id="section4" class="container-fluid">
+  <h1>Vitamin D</h1><br>
+  <q>Vitamin D helps your body absorb calcium. Calcium is one of the main building blocks of bone. A lack of vitamin D can lead to bone diseases such as osteoporosis or rickets. Vitamin D also has a role in your nerve, muscle, and immune systems.</q><br><br>
+  <q>Vitamin D-rich foods include egg yolks, saltwater fish, and liver. Some other foods, like milk and cereal, often have added vitamin D./</q>
+</div>
+<div id="section5" class="container-fluid">
+  <h1>Vitamin E</h1><br>
+  <q> Vitamin E is an antioxidant. It plays a role in your immune system and metabolic processes.Good sources of vitamin E include,Vegetable oils,Margarine,Nuts and seeds,Leafy greens</q><br><br>
+  <q>Vitamin E is also added to foods like cereals. Most people get enough vitamin E from the foods they eat. People with certain disorders, such as liver diseases, cystic fibrosis, and Crohn's disease may need extra vitamin E.</q>
+</div>
+<div id="section6" class="container-fluid">
+  <h1>Vitamin E</h1><br>
+  <q>Vitamin K helps your body by making proteins for healthy bones and tissues. It also makes proteins for blood clotting. If you don't have enough vitamin K, you may bleed too much.
+     Newborns have very little vitamin K. They usually get a shot of vitamin K soon after they are born.</q><br><br>
+  <q>There are different types of vitamin K. Most people get vitamin K from plants such as green vegetables, and dark berries. Bacteria in your intestines also produce small amounts of another type of vitamin K.</q>
+</div>
+</body>
+</html>
